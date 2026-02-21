@@ -1,0 +1,85 @@
+/*Змінні кольорів для легкого редагування*/
+:root {
+  --brand-color-light: #819857;
+  --color-primary: #faf4ea;
+  --color-brand-dark: #465929;
+  --color-primary-dark: #31261a;
+}
+/* Загальні стилі для всього сайту */
+body {
+  color: var(--color-primary-dark);
+  background-color: #6394ab; /* світло-сірий */
+}
+body {
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif; /* Використання шрифту Poppins */
+}
+h2 {
+  font-size: 64px;
+}
+.section-title {
+  color: var(--color-primary-dark);
+  /* Білий текст */
+}
+.section-title .accent3 {
+  color: var(--brand-color-light); /* Зелений акцент */
+}
+ul {
+  list-style-type: none; /* Убираем маркеры у списка */
+  padding: 0; /* Убираем отступы */
+  margin: 0; /* Убираем отступы */
+}
+/* Стилі для кнопки */
+.button {
+  color: var(--color-primary); /* Білий текст */
+  background-color: var(--brand-color-light); /* Зелений фон */
+  border: 2px solid var(--primary-color); /* Синя рамка */
+  border-radius: 8px; /* Закругленные углы */
+  width: 238px;
+  height: 59px;
+}
+.button:hover {
+  color: var(--color-brand-dark); /* Білий текст при наведении */
+  background-color: transparent;
+  border-color: var(--color-brand-dark); /* Темно-зеленая рамка при наведении */
+  cursor: pointer;
+}
+/* Стилі для посилань */
+.hederlink {
+  color: var(--color-primary-dark);
+}
+.hederlink:hover {
+  color: var(--color-brand-dark);
+}
+/* Стилі для головної секції */
+.hero-title {
+  font-size: 128px;
+  text-align: center;
+  color: var(--color-primary);
+}
+.hero-title .accent {
+  color: var(--brand-color-light);
+}
+/* Стилі для секції "Наші традиції" */
+.features {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 160px;
+  background-color: var(--brand-color-light);
+  color: var(--color-primary);
+}
+.p .accent1 {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--brand-color-light);
+}
+.p2 .accent2 {
+  color: var(--brand-color-light);
+}
+/*подвал*/
+.footerraits {
+  color: #a18268;
+}
